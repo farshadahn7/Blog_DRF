@@ -40,6 +40,9 @@ INSTALLED_APPS = [
 
     # Installed app
     'rest_framework',
+
+    # Local app
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
